@@ -14,6 +14,9 @@ const images = [
 ];
 
 const listGallery = document.querySelector('.gallery')
+// listGallery.style.display = "flex";
+// listGallery.style.justifyContent = "space-between"
+// listGallery.style.flexWrap = "wrap";
 
 const makeGallery = images.map(image => `<li class='item'><img class='photo' src=${image.url} alt=${image.alt}></li>`
 // {

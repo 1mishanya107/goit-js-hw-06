@@ -23,18 +23,18 @@ button {
   cursor: pointer;
 }
 
-gallery {
+.gallery {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
 
-item {
+.item {
   display: flex;
   width: 400px;
   height: auto;
 }
 
-photo {
+.photo {
   width: 100%;
 }
